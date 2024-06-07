@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "TTTtangsbudaejjigaeB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footerAll {
+  font-family: "TTTtangsbudaejjigaeB";
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  overflow-x: hidden;
+}
+.footerTmi {
+  display: flex;
+  margin: 10px;
+  gap: 30px;
+}
+
+hr {
+  width: 100%;
+  color: #222222;
+  border-color: #222222;
+  background-color: #222222;
+}

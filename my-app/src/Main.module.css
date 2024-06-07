@@ -6,22 +6,6 @@
   font-style: normal;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-}
-
-.head {
-  font-family: "TTTtangsbudaejjigaeB";
-  font-size: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 190px;
-  background-color: rgb(227, 227, 227);
-}
-
 .icon {
   width: 70px;
   display: flex;
@@ -56,28 +40,12 @@ body {
   margin: 90px 0px 0px 50px;
 }
 
-.footerAll {
-  font-family: "TTTtangsbudaejjigaeB";
-  display: flex;
-  flex-direction: column;
-  margin-top: 4%;
-  overflow-x: hidden;
-}
-.footerTmi {
-  display: flex;
-  margin: 10px;
-  gap: 30px;
-}
-
-hr {
-  width: 100%;
-  color: #222222; /* IE */
-  border-color: #222222; /* 사파리 */
-  background-color: #222222; /* 크롬, 모질라 등, 기타 브라우저 */
-}
-
-a {
+.iconLink {
   width: 70px;
+}
+
+.stackLink {
+  width: 150px;
 }
 
 .stackImg {
@@ -87,5 +55,7 @@ a {
 .stackImgAll {
   display: flex;
   gap: 100px;
-  : 200px;
+  position: absolute;
+  top: 400px;
+  left: 740px;
 }
